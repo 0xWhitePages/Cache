@@ -112,5 +112,4 @@ curl "http://localhost:9999/api?key=Tom" &
 
 wait
 ```
-执行
-sleep 2`run.sh`
+执行`run.sh`
