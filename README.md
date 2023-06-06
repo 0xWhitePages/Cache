@@ -1,7 +1,8 @@
 # MyCache是参考GroupCache实现的自定义分布式缓存
-> 参考链接：https://geektutu.com/post/geecache.html
-> https://github.com/golang/groupcache
-> https://blog.csdn.net/cnm10050/article/details/128307898
+> 参考链接：
+>         https://geektutu.com/post/geecache.html  
+> 	  https://github.com/golang/groupcache
+>         https://blog.csdn.net/cnm10050/article/details/128307898
 ## 设计一个缓存需要考虑哪些问题？  
 
 1.缓存内存不够时该如何处理?  
