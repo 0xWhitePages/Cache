@@ -1,11 +1,19 @@
-# MyCache是参考GroupCache实现的自定义分布式缓存
-> 参考链接：  
-> 
->         https://geektutu.com/post/geecache.html  
->         
->         https://github.com/golang/groupcache  
-> 	  
->         https://blog.csdn.net/cnm10050/article/details/128307898
+# GeeCache是参考GroupCache实现的自定义分布式缓存
+
+## Version
+v1
+
+## *Todo*
+1.将一致性哈希抽象出来，单独为`Proxy`层。解决每个Group都需要维护一个哈希环的问题。
+2.使用etcd做服务注册与服务发现
+
+*参考链接：*  
+ 
+https://geektutu.com/post/geecache.html  
+         
+https://github.com/golang/groupcache  
+ 	  
+https://blog.csdn.net/cnm10050/article/details/128307898
 
 ## 设计一个缓存需要考虑哪些问题？  
 
